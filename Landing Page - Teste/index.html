@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Financeiro</title>
+    <!-- Inclui a fonte Inter do Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <!-- Inclui a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Inclui o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Inclui o arquivo de scripts JavaScript -->
+    <script src="script.js" defer></script>
+
+</head>
+<body class="antialiased">
+
+    <!-- Menu de navegação -->
+    <nav class="main-nav">
+        <div class="container main-nav-content">
+            <a href="#" class="logo">Fin App</a>
+            <div class="nav-links">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <!-- Botão do menu mobile -->
+            <div class="mobile-menu-button-container">
+                <button id="mobile-menu-button" class="mobile-menu-button">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Menu mobile -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <a href="#beneficios" class="nav-link">Benefícios</a>
+            <a href="#depoimentos" class="nav-link">Depoimentos</a>
+            <a href="#contato" class="nav-link">Contato</a>
+        </div>
+    </nav>
+
+    <!-- Seção 1: Principal com Imagem e CTA -->
+    <section id="sobre" class="hero-section">
+        <div class="container hero-content">
+            <!-- Conteúdo de texto à esquerda -->
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Gerencie suas finanças de forma <span class="text-gradient">inteligente</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Nosso aplicativo simplifica o controle de gastos, ajuda você a economizar e a alcançar suas metas financeiras com facilidade.
+                </p>
+                <a href="#contato" class="cta-button">
+                    Comece Agora
+                </a>
+            </div>
+            <!-- Imagem à direita -->
+            <div class="hero-image-container">
+                <img src="image/imagem1.svg" alt="App Financeiro" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Benefícios -->
+    <section id="beneficios" class="benefits-section">
+        <div class="container benefits-content">
+            <h2 class="section-title">Principais Benefícios</h2>
+            <p class="section-subtitle">
+                Descubra como nosso aplicativo pode transformar sua vida financeira com ferramentas poderosas e intuitivas.
+            </p>
+            <div class="benefits-grid">
+                <!-- Benefício 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon-container bg-purple">
+                        <i class="fas fa-chart-line icon-color-purple"></i>
+                    </div>
+                    <h3 class="benefit-title">Análise de Gastos</h3>
+                    <p class="benefit-text">
+                        Tenha uma visão clara de para onde seu dinheiro está indo com relatórios detalhados.
+                    </p>
+                </div>
+                <!-- Benefício 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon-container bg-green">
+                        <i class="fas fa-piggy-bank icon-color-green"></i>
+                    </div>
+                    <h3 class="benefit-title">Economia Fácil</h3>
+                    <p class="benefit-text">
+                        Crie metas de economia e acompanhe seu progresso de forma simples.
+                    </p>
+                </div>
+                <!-- Benefício 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon-container bg-blue">
+                        <i class="fas fa-lock icon-color-blue"></i>
+                    </div>
+                    <h3 class="benefit-title">Segurança Máxima</h3>
+                    <p class="benefit-text">
+                        Seus dados são protegidos com a mais alta tecnologia de criptografia.
+                    </p>
+                </div>
+                <!-- Benefício 4 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon-container bg-red">
+                        <i class="fas fa-bell icon-color-red"></i>
+                    </div>
+                    <h3 class="benefit-title">Alertas Personalizados</h3>
+                    <p class="benefit-text">
+                        Receba notificações sobre contas a pagar e metas, para nunca mais esquecer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Depoimentos de Usuários -->
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container testimonials-content">
+            <h2 class="section-title">O Que Nossos Usuários Dizem</h2>
+            <p class="section-subtitle">
+                Veja como o nosso app está mudando a vida financeira de milhares de pessoas.
+            </p>
+            <div class="testimonials-grid">
+                <!-- Depoimento 1 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "O melhor aplicativo financeiro que já usei! Ajudou-me a organizar minhas finanças e a economizar para minhas férias."
+                    </p>
+                    <div class="user-info">
+                        <img src="https://placehold.co/48x48/764ba2/ffffff?text=J.S" alt="Foto do usuário" class="user-image">
+                        <div>
+                            <p class="user-name">João Silva</p>
+                            <p class="user-role">Usuário Satisfeito</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Depoimento 2 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Nunca pensei que controlar dinheiro fosse tão fácil. A interface é super intuitiva e os relatórios são incríveis."
+                    </p>
+                    <div class="user-info">
+                        <img src="https://placehold.co/48x48/667eea/ffffff?text=M.C" alt="Foto do usuário" class="user-image">
+                        <div>
+                            <p class="user-name">Maria Costa</p>
+                            <p class="user-role">Desenvolvedora</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Depoimento 3 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Finalmente consegui pagar minhas dívidas e montar uma reserva de emergência. Este app mudou minha vida!"
+                    </p>
+                    <div class="user-info">
+                        <img src="https://placehold.co/48x48/764ba2/ffffff?text=A.L" alt="Foto do usuário" class="user-image">
+                        <div>
+                            <p class="user-name">Ana Luiza</p>
+                            <p class="user-role">Designer Gráfica</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova Seção: Gerador de Dicas Financeiras com a API do Gemini -->
+    <section id="gemini-tips" class="gemini-section">
+        <div class="container gemini-content">
+            <h2 class="section-title">Gerador de Dicas Financeiras ✨</h2>
+            <p class="section-subtitle">
+                Pergunte sobre qualquer tópico financeiro e nosso assistente IA irá gerar uma dica personalizada para você.
+            </p>
+            <div class="gemini-input-area">
+                <textarea id="tip-input" rows="4" placeholder="Ex: 'Quais as melhores formas de começar a investir?' ou 'Como posso economizar dinheiro no dia a dia?'" class="gemini-input"></textarea>
+                <button id="generate-tip-button" class="gemini-button">
+                    Gerar Dica ✨
+                </button>
+                <div id="tip-output" class="gemini-output hidden">
+                    <!-- O resultado da dica será exibido aqui -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 4: Formulário de Assinatura -->
+    <section id="contato" class="subscribe-section">
+        <div class="container subscribe-content">
+            <h2 class="section-title subscribe-title">Pronto para assumir o controle?</h2>
+            <p class="section-subtitle subscribe-subtitle">
+                Inscreva-se em nossa newsletter para receber dicas financeiras exclusivas e novidades sobre o nosso app.
+            </p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Seu melhor e-mail" required class="subscribe-input">
+                <button type="submit" class="subscribe-button">
+                    Inscrever-se
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p class="footer-text">© 2025 Fin App. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="nav-link">Termos de Serviço</a>
+                <a href="#" class="nav-link">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
